@@ -18,7 +18,7 @@ app.use(express.static("public"));
 
 mongoose.set('strictQuery', true);
 
-mongoose.connect("");
+mongoose.connect(""); //Enter your own MongoDB Atlas connection link with your username and password here
 
 const postSchema = {
     title: String,
